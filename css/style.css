@@ -714,6 +714,7 @@ input[type="checkbox"]:checked ~ .outer .form-box h2 {
   outline: none;
   transition: 0.3s ease;
   margin: 5px 0;
+  color:black;
 }
 
 .input-box label {
@@ -733,7 +734,7 @@ input[type="checkbox"]:checked ~ .outer .input-box label {
 .form-box .input-box input:valid {
   background: transparent;
   border-color: #505050;
-  color: white;
+  color: black;
 }
 
 .form-box .input-box input:focus ~ label,
@@ -768,6 +769,7 @@ input[type="checkbox"]:checked
   border-radius: 5px;
   padding: 5px;
   font-size: 0.9rem;
+  color: black;
 }
 .form-box .mess-box label {
   position: absolute;
@@ -786,12 +788,13 @@ input[type="checkbox"]:checked ~ .outer .form-box .mess-box label {
 .form-box .mess-box textarea:valid {
   background: white;
   border-color: #505050;
+  color: black;
 }
 input[type="checkbox"]:checked ~ .outer .form-box .mess-box textarea:focus,
 .form-box .mess-box textarea:valid {
   background: transparent;
   border: 2px solid #505050;
-  color: white;
+  color: black;
 }
 .form-box .mess-box textarea:focus ~ label,
 .form-box .mess-box textarea:valid ~ label {
